@@ -33,5 +33,11 @@ module.exports = (app) => {
     res.json(userNote);
   });
 
+  app.delete('/api/notes/:id', (req, res) => {
+    const notes = readNotesFromFile();
+    const deleteNotes = notes.filter((item) => item.id !== req.params.id);
 
+    writeNotesToFile(deleteNotes);
+    res.json(deleteNotes);
+  });
 };
