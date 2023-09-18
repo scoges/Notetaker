@@ -38,7 +38,11 @@
   ## Credits
   Scott Ogrins
 
-<img src="./public/assets/shot" width="350" title="hover text">
+
+![shot](https://github.com/scoges/Notetaker/assets/131681487/199e80ff-7cad-4dfc-91f9-4d5bc4a3347f)
+
+
+
 
 ## live url
 https://notey-60eb4c36130a.herokuapp.com/notes
